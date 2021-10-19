@@ -1,10 +1,12 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import IndexRouter from "./routes";
 
 const App = () => {
     return (
-        <div>
-            <h1>Welcome to My React components</h1>
-        </div>
+        <Router>
+            <IndexRouter />
+        </Router>
     );
 };
 
