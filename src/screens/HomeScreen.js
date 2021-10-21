@@ -13,6 +13,10 @@ const HomeScreen = () => {
             <div>
                 <Link to="/navbar">Navbar</Link>
             </div>
+
+            <div>
+                <Link to="/modal">Modal</Link>
+            </div>
         </div>
     );
 };
