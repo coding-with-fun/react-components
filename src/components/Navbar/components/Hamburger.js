@@ -1,15 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Hamburger.scss";
 
-const Hamburger = () => {
-    const [isNavOpen, setIsNavOpen] = useState(false);
-
+const Hamburger = ({ isNavOpen, handleNavbar }) => {
     return (
         <div
             className={`hamburger_menu ${
                 isNavOpen ? "hamburger_open" : "hamburger_close"
             }`}
-            onClick={() => setIsNavOpen(!isNavOpen)}
+            onClick={handleNavbar}
         >
             <div className="hamburger_line"></div>
         </div>
