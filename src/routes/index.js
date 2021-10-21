@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import AlertScreen from "../screens/AlertScreen";
 import ButtonScreen from "../screens/ButtonScreen";
 import HomeScreen from "../screens/HomeScreen";
 import LoaderScreen from "../screens/LoaderScreen";
@@ -14,6 +15,7 @@ const IndexRouter = () => {
             <Route exact path="/navbar" component={NavbarScreen} />
             <Route exact path="/modal" component={ModalScreen} />
             <Route exact path="/buttons" component={ButtonScreen} />
+            <Route exact path="/alert" component={AlertScreen} />
         </Switch>
     );
 };

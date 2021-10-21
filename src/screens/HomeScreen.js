@@ -21,6 +21,10 @@ const HomeScreen = () => {
             <div>
                 <Link to="/buttons">Buttons</Link>
             </div>
+
+            <div>
+                <Link to="/alert">Alert</Link>
+            </div>
         </div>
     );
 };
