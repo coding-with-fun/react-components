@@ -1,0 +1,57 @@
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    height: 100vh;
+    width: 100vw;
+
+    .button {
+        margin: 2rem 1rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid;
+        transition: color 100ms linear, background-color 100ms linear;
+    }
+
+    .button_primary,
+    .button_primary_outline:hover {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+
+    .button_primary:hover,
+    .button_primary_outline {
+        color: #0d6efd;
+        background-color: #fff;
+    }
+
+    .button_danger,
+    .button_danger_outline:hover {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .button_danger:hover,
+    .button_danger_outline {
+        color: #dc3545;
+        background-color: #fff;
+    }
+
+    .button_success,
+    .button_success_outline:hover {
+        color: #fff;
+        background-color: #198754;
+        border-color: #198754;
+    }
+
+    .button_success:hover,
+    .button_success_outline {
+        color: #198754;
+        background-color: #fff;
+    }
+}
