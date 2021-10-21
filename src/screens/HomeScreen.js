@@ -6,7 +6,13 @@ const HomeScreen = () => {
         <div>
             <h1>Welcome to My React components</h1>
 
-            <Link to="/loader">Loader</Link>
+            <div>
+                <Link to="/loader">Loader</Link>
+            </div>
+
+            <div>
+                <Link to="/navbar">Navbar</Link>
+            </div>
         </div>
     );
 };
